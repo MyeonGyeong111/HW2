@@ -35,3 +35,34 @@ cd Desktop
 ls -al
 cat assignment.py
 shutdown now
+git init
+git add .
+git commit -m "first commit"
+git config --global user.email "gusrud00825@khu.ac.kr"
+git config --global user.name "MyeonGyeong111"
+git commit -m "first commit"
+git remote add origin https://github.com/MyeonGyeong111/HW2.git
+git push -u origin master
+cd /HOme
+cd /Home
+cd /Desktop
+ls -al
+cd ~/Desktop
+cd /home
+ls -ak
+ls -al
+cd myeon
+ls -al
+cd Desktop
+ls -al
+cd age_prediction_api
+rm -rf .git
+git init
+git remote add origin https://github.com/MyeonGyeong111/HW2.git
+git add .
+git config --global --add safe.directory /home/myeon/Desktop/age_prediction_api
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/MyeonGyeong111/HW2.git
+git push -u origin master
+git push origin master --force
